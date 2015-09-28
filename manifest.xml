@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest xmlns="http://www.elgg.org/plugin_manifest/1.8">
+    <name>hypeWall Extended</name>
+    <author>AgoraMap</author>
+    <version>1.12.0</version>
+    <category>bundled</category>
+    <category>content</category>
+    <description>This plugin is an extension of hypeWall (https://github.com/hypeJunction/hypeWall) offering more posting options on user's walls. Initial development of this plugin was funded by https://socialbusinessworld.org.</description>
+    <website>http://www.agoramap.com/</website>
+    <copyright>(C) AgoraMap 2012 - 2015</copyright>
+    <license>GNU General Public License version 2</license>
+
+    <requires>
+            <type>elgg_release</type>
+            <version>1.9</version>
+    </requires>
+
+	<requires>
+		<type>plugin</type>
+		<name>hypeWall</name>
+		<version>3.2.0</version>
+	</requires>
+	
+	<suggests>
+		<type>plugin</type>
+		<name>videolist</name>
+		<version>1.11</version>
+	</suggests>
+		
+	<suggests>
+		<type>plugin</type>
+		<name>poll</name>
+		<version>1.9.4</version>
+	</suggests>
+	
+	<suggests>
+		<type>plugin</type>
+		<name>blog</name>
+		<version>1.9</version>
+	</suggests>	
+	
+	<suggests>
+		<type>plugin</type>
+		<name>event_manager</name>
+		<version>3.0</version>
+	</suggests>
+	
+    <activate_on_install>true</activate_on_install>
+</plugin_manifest>
