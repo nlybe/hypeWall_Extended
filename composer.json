@@ -1,5 +1,5 @@
 {
-    "name": "nlybe/hypeWall_extended",
+    "name": "nlybe/hypewall_extended",
     "type": "elgg-plugin",
     "require": {
         "composer/installers": ">=1.0.8",
