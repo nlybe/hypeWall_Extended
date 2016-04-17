@@ -5,5 +5,8 @@
         "composer/installers": ">=1.0.8",
         "hypejunction/hypewall": "dev-master"
     },
-    "license": "GPL-2.0"
+    "license": "GPL-2.0",
+	"extra": {
+		"installer-name": "hypeWall_extended"
+	}
 }
