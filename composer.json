@@ -3,7 +3,7 @@
     "type": "elgg-plugin",
     "require": {
         "composer/installers": ">=1.0.8",
-        "hypejunction/hypewall": "dev-master"
+        "hypejunction/hypewall": "^4.4"
     },
     "license": "GPL-2.0",
 	"extra": {
